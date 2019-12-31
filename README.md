@@ -57,7 +57,7 @@ SDL（Simple DirectMedia Layer）是一套开放源代码的跨平台多媒体�
 
 源码目录
 
-![image](source_list.png)
+![image](https://github.com/bamboolife/SDLStudy/blob/master/img/source_list.png)
 2. 配置环境
 
 - 下载jdk1.8、Android studio3.5 ndk>=8 
@@ -75,12 +75,12 @@ export ANDROID_NDK_HOME="/usr/src/android-ndk-rXX"      # for gradle
 ```
 >说明：org.libsdl.testgles是一个包名，可以随意替换成其他的包名。命令执行完会生成一个Android项目
 
-![image](sdl_project.png)
+![image](https://github.com/bamboolife/SDLStudy/blob/master/img/sdl_project.png)
 
 会在SDL的当前目录生成一个build文件夹，然如进入/SDL2/build/org.libsdl.testgles/文件夹
 <br>如果SDL<=2.0.7  执行`ant debug install`
 <br>如果SDL>=2.0.8  执行`./gradlew installDebug`
 <br>执行命令后，只需要等待片刻，就编译完成了。编译完成把项目导入Android studio运行
 
-![image](share_lib.png)
+![image](https://github.com/bamboolife/SDLStudy/blob/master/img/share_lib.png)
 
