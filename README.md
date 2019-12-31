@@ -58,6 +58,7 @@ SDL（Simple DirectMedia Layer）是一套开放源代码的跨平台多媒体�
 源码目录
 
 ![image](https://github.com/bamboolife/SDLStudy/blob/master/img/source_list.png)
+
 2. 配置环境
 
 - 下载jdk1.8、Android studio3.5 ndk>=8 
